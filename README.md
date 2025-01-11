@@ -1,30 +1,3 @@
-<!-- # Blog Server
-Live link: https://a3-blog-server.vercel.app/
-
-A blog application backend that supports user authentication, blog management, and user blocking functionality. This project is built with Node.js, Express, MongoDB (via Mongoose), and TypeScript.
-
-## Features
-
-- **User Authentication**: Users can register, login, and manage their sessions.
-- **Role-Based Access Control**: Users can have different roles (`admin`, `user`) with varying access to the application.
-- **Blog Management**: Admin and users can create, update, delete, and view blogs.
-- **User Management**: Admin can block users.
-
-## Requirements
-
-- Node.js (>=16.x)
-- MongoDB instance (local or cloud)
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/parvejme24/a3-blog-server.git
-
-  ```bash
-      cd a3-blog-server -->
-
 # Blog Server 🚀
 
 **Live Link**: [https://a3-blog-server.vercel.app/](https://a3-blog-server.vercel.app/)
@@ -76,16 +49,19 @@ A backend for a blog application that supports user authentication, blog managem
 4. Create a `.env` file in the root directory and add the following environment variables:
 
    ```env
-   PORT=5000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   ```
+   DATABASE_URL=your_mongodb_connection_string
+   NODE_ENV=development
+   PORT=5050
+   JWT_ACCESS_SECRET=your_jwt_secret
+   JWT_ACCESS_EXPIRES_IN=time
+
+````
 
 5. Start the development server:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+````
 
 ---
 
