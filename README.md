@@ -21,4 +21,6 @@ A blog application backend that supports user authentication, blog management, a
 
    ```bash
    git clone https://github.com/parvejme24/a3-blog-server.git
-   cd blog-server
+
+  ```bash 
+      cd a3-blog-server
