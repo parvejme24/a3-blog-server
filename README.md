@@ -54,14 +54,13 @@ A backend for a blog application that supports user authentication, blog managem
    PORT=5050
    JWT_ACCESS_SECRET=your_jwt_secret
    JWT_ACCESS_EXPIRES_IN=time
-
-````
+   ```
 
 5. Start the development server:
 
-```bash
-npm run dev
-````
+   ```bash
+   npm run dev
+   ```
 
 ---
 
@@ -75,11 +74,12 @@ npm run dev
 
 ## 🔐 Environment Variables
 
-| Variable     | Description                   |
-| ------------ | ----------------------------- |
-| `PORT`       | Port on which the server runs |
-| `MONGO_URI`  | MongoDB connection string     |
-| `JWT_SECRET` | Secret key for JWT token      |
+| Variable                | Description                   |
+| ----------------------- | ----------------------------- |
+| `PORT`                  | Port on which the server runs |
+| `DATABASE_URL`          | MongoDB connection string     |
+| `JWT_ACCESS_SECRET`     | Secret key for JWT token      |
+| `JWT_ACCESS_EXPIRES_IN` | JWT expiration time           |
 
 ---
 
