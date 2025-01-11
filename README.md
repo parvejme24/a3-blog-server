@@ -1,5 +1,5 @@
 # Blog Server
-Live link: https://blog-server-wine-six.vercel.app
+Live link: https://a3-blog-server.vercel.app/
 
 A blog application backend that supports user authentication, blog management, and user blocking functionality. This project is built with Node.js, Express, MongoDB (via Mongoose), and TypeScript.
 
@@ -20,5 +20,5 @@ A blog application backend that supports user authentication, blog management, a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Atik-Sahariyar/blog-server.git
+   git clone https://github.com/parvejme24/a3-blog-server.git
    cd blog-server
